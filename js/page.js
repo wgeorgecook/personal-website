@@ -2,6 +2,8 @@ const Modals = function() {
     this.projectModal = document.querySelector('#projectModal');
     this.aboutModal = document.querySelector('#aboutModal');
     this.background = document.querySelector("#modal");
+    this.closeProject = document.querySelector("#closeProject");
+    this.closeAbout = document.querySelector("#closeAbout");
 }
 
 Modals.prototype.showAboutModal = function() {
@@ -33,6 +35,12 @@ document.addEventListener('click', function(e) {
             modal.showProjectModal();
             break;
         case "modal":
+            modal.reset();
+            break;
+        case "closeProject":
+            modal.reset();
+            break;
+        case "closeAbout":
             modal.reset();
             break;
     };
