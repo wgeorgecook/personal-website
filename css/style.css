@@ -3,6 +3,10 @@ html {
     height: 100%;
 }
 
+header {
+    box-shadow: -1px 15px 39px -8px rgba(0,0,0,0.75);
+}
+
 body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: rgb(117, 196, 238);
