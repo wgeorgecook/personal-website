@@ -172,8 +172,14 @@ button:hover {
     }
 
     #closeProject, #closeAbout {
-        display: inline;
+        display: block;
+        text-align: center;
+        width: 68px;
         cursor: pointer;
+        border: 1px solid rgb(117, 196, 238);
+        padding: .25em;
+        margin: auto;
+
     }
 
     #aboutdetail {
