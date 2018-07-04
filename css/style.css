@@ -51,7 +51,6 @@ ul {
     justify-content: space-around;
     width: 75%;
     height: 80%;
-    border: 1px solid black;
     padding: 1em;
     margin: 1em;
     border-radius: .15em;
@@ -59,7 +58,6 @@ ul {
     margin: 15% auto;
     box-shadow: -1px 15px 39px -8px rgba(0,0,0,0.75);
     background-color: white;
-   /* background: url('../img/folsom.jpg'); */
 }
 
 h1 {
