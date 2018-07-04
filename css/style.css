@@ -52,16 +52,17 @@ ul {
     width: 75%;
     height: 80%;
     padding: 1em;
-    margin: 1em;
     border-radius: .15em;
     text-align: center;
-    margin: 15% auto;
+    margin: 7% auto;
     box-shadow: -1px 15px 39px -8px rgba(0,0,0,0.75);
     background-color: white;
 }
 
 h1 {
     order: 0;
+    font-family: Pacifico, Helvetica, sans-serif;
+    font-size: 66px;
 }
 
 .buttons {
