@@ -159,7 +159,9 @@ button:hover {
     .modalContent {
         background-color: #fefefe;
         display: none;
-        width: 80%;
+        height: auto;
+        width: 75%;
+        margin: auto;
         border: 1px solid rgb(117, 196, 238);
         box-shadow: -1px 15px 39px -8px rgba(0,0,0,0.75);
         transition: all 500ms;
@@ -168,8 +170,13 @@ button:hover {
 
     #aboutdetail {
         width: auto;
+        height: auto;
         margin: auto;
         grid-column: 1;
+    }
+
+    #projectModal {
+        margin-top: 33%;
     }
 
     #headshot {
