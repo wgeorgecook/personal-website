@@ -15,15 +15,6 @@ Modals.prototype.showProjectModal = function() {
     this.projectModal.style.display = "block";
 }
 
-/* Animate the out modal
-Modals.prototype.hideModal = function() {
-    this.background.style.display = "none";
-    this.aboutModal.classList.remove('fadeInUp')
-    this.contactModal.classList.remove('fadeInUp')
-    this.aboutModal.classList.add('fadeOutDown')
-    this.contactModal.classList.add('fadeOutDown')
-}
-*/
 
 Modals.prototype.reset = function() {
     this.background.style.display = "none";
@@ -42,7 +33,6 @@ document.addEventListener('click', function(e) {
             modal.showProjectModal();
             break;
         case "modal":
-            // modal.hideModal();
             modal.reset();
             break;
     };
