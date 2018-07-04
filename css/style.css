@@ -127,6 +127,9 @@ button:hover {
     flex-direction: row;
 }
 
+#closeProject, #closeAbout {
+    display: none;
+}
 
 .gray {
     margin-top: 1em;
@@ -166,6 +169,11 @@ button:hover {
         box-shadow: -1px 15px 39px -8px rgba(0,0,0,0.75);
         transition: all 500ms;
         flex-direction: column;
+    }
+
+    #closeProject, #closeAbout {
+        display: inline;
+        cursor: pointer;
     }
 
     #aboutdetail {
