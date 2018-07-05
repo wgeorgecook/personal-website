@@ -207,6 +207,11 @@ button:hover {
         */
     }
 
+    .socialthumb {
+        width: 48px;
+        height: 48px;
+    }
+
 }
 
 @media screen and (min-width: 1920px) {
