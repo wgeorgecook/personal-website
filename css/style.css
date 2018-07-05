@@ -50,6 +50,14 @@ ul {
     margin-left: 20px;
 }
 
+#contactBtn {
+    cursor: pointer;
+}
+
+#contactBtn:hover {
+    color: rgb(117, 196, 238);
+}
+
 #main {
     display: flex;
     flex-direction: column;
@@ -136,11 +144,15 @@ button:hover {
     flex-direction: row;
 }
 
+#contactModal {
+    text-align: center;
+}
+
 #projectModal {
     text-align: center;
 }
 
-#closeProject, #closeAbout {
+#closeProject, #closeAbout, #closeContact {
     display: none;
 }
 
@@ -218,7 +230,7 @@ button:hover {
         flex-direction: column;
     }
 
-    #closeProject, #closeAbout {
+    #closeProject, #closeAbout, #closeContact {
         display: block;
         text-align: center;
         width: 68px;
@@ -247,7 +259,7 @@ button:hover {
         margin: 15% auto;
     }
 
-    #projectModal {
+    #projectModal, #contactModal {
         margin: 25% auto;
     }
 
