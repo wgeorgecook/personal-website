@@ -50,6 +50,10 @@ ul {
     margin-left: 20px;
 }
 
+#contactBtn {
+    cursor: pointer;
+}
+
 #main {
     display: flex;
     flex-direction: column;
@@ -140,7 +144,7 @@ button:hover {
     text-align: center;
 }
 
-#closeProject, #closeAbout {
+#closeProject, #closeAbout, #closeContact {
     display: none;
 }
 
@@ -218,7 +222,7 @@ button:hover {
         flex-direction: column;
     }
 
-    #closeProject, #closeAbout {
+    #closeProject, #closeAbout, #closeContact {
         display: block;
         text-align: center;
         width: 68px;
