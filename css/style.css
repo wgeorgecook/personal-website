@@ -105,6 +105,10 @@ button:hover {
     background-color: rgb(117, 196, 238);
 }
 
+#socialLinks {
+    display: none;
+}
+
 /* Thanks to W3 School for the modal CSS */
 /* Thanks to Lynn Wallenstein for some CSS tips too */
 #modal{
@@ -141,8 +145,15 @@ button:hover {
     color: gray;
     font-weight: bold;
 }
+
+#aboutHead {
+    margin: 15%;
+    margin-bottom: .15em;
+    width: 33%;
+}
+
 #aboutdetail {
-    text-align: justify;
+    text-align: center;
     height: auto;
     margin: auto;
     margin-left: 1em;
@@ -160,8 +171,14 @@ button:hover {
     text-decoration: none;
 }
 
+@media screen and (min-width: 1080px) {
+    #background {
+        width: 1080px;
+        margin: auto;
+    }
+}
 
-@media screen and (min-width: 320px) and (max-width: 850px) {
+@media screen and (max-width: 850px) {
 
     .modalContent {
         background-color: #fefefe;
@@ -171,7 +188,6 @@ button:hover {
         margin: auto;
         border: 1px solid rgb(117, 196, 238);
         box-shadow: -1px 15px 39px -8px rgba(0,0,0,0.75);
-        transition: all 500ms;
         flex-direction: column;
     }
 
@@ -186,25 +202,31 @@ button:hover {
 
     }
 
+    #aboutHead {
+        text-align: center;
+        font-size: 2em;
+        margin: .25em auto;
+    }
+
     #aboutdetail {
-        width: auto;
-        height: auto;
+        width: 80%;
+        height: 90%;
         margin: auto;
         grid-column: 1;
+        font-size: .75em;
+    }
+
+    #aboutModal {
+        margin: 15% auto;
     }
 
     #projectModal {
-        margin-top: 33%;
+        margin: 33% auto;
     }
 
     #headshot {
         /* Hide on mobile */
         display: none;
-        /*
-        margin: auto;
-        max-height: 136px;
-        max-width: 136px;
-        */
     }
 
     .socialthumb {
@@ -214,8 +236,14 @@ button:hover {
 
 }
 
-@media screen and (min-width: 1920px) {
-    .modalContent {
-        width: 1080px;
+@media screen and (max-width: 475px) {
+
+    #social {
+        display: none;
+    }
+
+    #socialLinks {
+        margin: 1em auto;
+        display: block;
     }
 }
