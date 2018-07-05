@@ -259,7 +259,7 @@ button:hover {
         margin: 15% auto;
     }
 
-    #projectModal {
+    #projectModal, #contactModal {
         margin: 25% auto;
     }
 
