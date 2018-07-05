@@ -111,7 +111,7 @@ button:hover {
 
 /* Thanks to W3 School for the modal CSS */
 /* Thanks to Lynn Wallenstein for some CSS tips too */
-#modal{
+#modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -146,15 +146,21 @@ button:hover {
     font-weight: bold;
 }
 
-#aboutHead {
-    margin: 15%;
+#aboutHead, #workHead {
+    text-align: center;
+    margin: auto;
     margin-bottom: .15em;
-    width: 33%;
+    width: 90%;
+}
+
+#aboutHead {
+    grid-column: 1 / span 3;
 }
 
 #aboutdetail {
-    text-align: center;
+    text-align: left;
     height: auto;
+    width: 85%;
     margin: auto;
     margin-left: 1em;
     padding: 1em;
@@ -162,6 +168,7 @@ button:hover {
 }
 
 #headshot {
+    margin: auto;
     grid-column: 1 / 2;
     max-height: 272px;
     max-width: 272px;
@@ -172,9 +179,13 @@ button:hover {
 }
 
 @media screen and (min-width: 1080px) {
-    #background {
+    #background,  .modalContent {
         width: 1080px;
         margin: auto;
+    }
+
+    .modalContent {
+        margin-top: 200px;
     }
 }
 
@@ -202,7 +213,7 @@ button:hover {
 
     }
 
-    #aboutHead {
+    #aboutHead, #workHead {
         text-align: center;
         font-size: 2em;
         margin: .25em auto;
