@@ -54,6 +54,10 @@ ul {
     cursor: pointer;
 }
 
+#contactBtn:hover {
+    color: rgb(117, 196, 238);
+}
+
 #main {
     display: flex;
     flex-direction: column;

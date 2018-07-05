@@ -43,6 +43,7 @@ document.addEventListener('click', function(e) {
             break;
         case "contactBtn":
             modal.showContactModal();
+            break;
         case "modal":
             modal.reset();
             break;
@@ -50,6 +51,9 @@ document.addEventListener('click', function(e) {
             modal.reset();
             break;
         case "closeAbout":
+            modal.reset();
+            break;
+        case "closeContact":
             modal.reset();
             break;
     };
