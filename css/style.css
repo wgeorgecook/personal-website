@@ -23,6 +23,7 @@ a:hover {
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
 .container {
@@ -135,6 +136,10 @@ button:hover {
     flex-direction: row;
 }
 
+#projectModal {
+    text-align: center;
+}
+
 #closeProject, #closeAbout {
     display: none;
 }
@@ -176,6 +181,8 @@ button:hover {
 
 .projectLink {
     text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.25em;
 }
 
 .list-item {
@@ -194,7 +201,7 @@ button:hover {
     }
 
     .modalContent {
-        margin-top: 200px;
+        margin-top: 80px;
     }
 }
 
@@ -241,7 +248,7 @@ button:hover {
     }
 
     #projectModal {
-        margin: 33% auto;
+        margin: 25% auto;
     }
 
     #headshot {
