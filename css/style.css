@@ -1,6 +1,9 @@
 html {
     width: 100%;
     height: 100%;
+    background-image: url("../img/leaves-pattern.png");
+    background-color: rgb(117, 196, 238);
+    background-repeat: repeat;
 }
 
 header {
@@ -9,7 +12,7 @@ header {
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    background-color: rgb(117, 196, 238);
+
 }
 
 a, ul, li {
