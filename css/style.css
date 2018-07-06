@@ -233,11 +233,11 @@ button:hover {
     #closeProject, #closeAbout, #closeContact {
         display: block;
         text-align: center;
-        width: 68px;
+        font-size: 2em;
+        width: 48px;
+        height: 48px;
         cursor: pointer;
-        border: 1px solid rgb(117, 196, 238);
-        padding: .25em;
-        margin: auto;
+        padding: .2em;
 
     }
 
