@@ -2,7 +2,7 @@
 This is a spot where you can find out what I'm up to.
 
 ## Fully front end, library free.
-Written in HTML/CSS with modal functionality from Javascript. No jQuery or Sass.
+Written in HTML/CSS with modal functionality from Javascript. No jQuery or CSS preprocessing.
 
 ## Google fonts
 All the curly bits are [Pacifico](https://fonts.google.com/specimen/Pacifico).
