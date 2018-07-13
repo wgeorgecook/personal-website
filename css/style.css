@@ -157,7 +157,15 @@ button:hover {
 }
 
 #closeProject, #closeAbout, #closeContact {
-    display: none;
+    display: block;
+    cursor: pointer;
+    font-size: 2em;
+    width: 48px;
+    height: 48px;
+}
+
+#closeProject, #closeContact {
+    margin-right: 80%;
 }
 
 .gray {
