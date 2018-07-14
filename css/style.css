@@ -37,6 +37,11 @@ ul {
     background-color: white;
 }
 
+#projectBtn, #aboutBtn {
+    font-family: Pacifico, Arial, sans-serif;
+    font-size: 1.25em;
+}
+
 .item {
     margin: auto;
     display: inline;
