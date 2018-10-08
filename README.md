@@ -8,7 +8,7 @@ I used to be in the photo and video business, and thusly had a pretty bulky Word
 Written in HTML/CSS with modal functionality from Javascript. No jQuery or CSS preprocessing. I did not use any front end frame work. This can be downloaded and served with any web server or uploaded to a hosting site like [Github Pages](https://pages.github.com/) without worrying about any server functionality.
 
 ### Limitations
-As a vanilla product, it comes with some limitations that frameworks aim to solve. I have to manually update UI whenever I want to change something. Everything is pretty well statically set. In the future, I would like to add a data store and keep relevant project details as well as my bio. That way, I don't need to edit pages directly to add or modify that information. React or Angular are what I am now familiar with, and are excellent candidates.
+As a vanilla product, it comes with some limitations that frameworks aim to solve. I have to manually update UI whenever I want to change something. Everything is pretty well statically set. To solve this issue, I created a version of this site in Angular 6. You can find that project [here](https://www.github.com/wgeorgecook/ng-personal-website).
 
 ## Google fonts
 All the curly bits are [Pacifico](https://fonts.google.com/specimen/Pacifico).
